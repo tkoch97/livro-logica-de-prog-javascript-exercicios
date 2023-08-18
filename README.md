@@ -1,7 +1,13 @@
 # Livro - Lógica de Programação e Algoritmos com JS - Exercícios 📖
 
+<style>
+  .centered-container {
+    display: flex;
+    justify-content: center;
+  }
+</style>
 
-<div style="display: flex; justify-content: center;">
+<div class="centered-container">
   <img align="center" alt="preview" height="300" src="https://d2i0w0hu6hvxgc.cloudfront.net/B09VR2SVR7/f2860e56/cover.jpeg" />
 </div>
 
