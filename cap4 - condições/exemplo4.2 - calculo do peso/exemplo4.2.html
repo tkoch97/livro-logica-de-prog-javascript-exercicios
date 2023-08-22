@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./exemplo4.2.css">
+  <title>Calc peso ideal</title>
+</head>
+<body>
+
+  <img src="https://images.tcdn.com.br/img/img_prod/643493/balanca_digital_para_banheiro_180_kg_vidro_temperado_214_1_276a1df64aac73ad1ab0c515f2182d5c.jpg" alt="Pessoa indo se pesar">
+  
+  <h1 class="title">Prog Cálculo do Peso ideal</h1>
+
+  <form action="">
+    <p>
+      Nome:
+      <input type="text" id="inName" step="0.01"min="0">
+    </p>
+    <p>
+      Sexo:
+      <input type="radio" name="Sexo" id="inMasc" step="0.01"min="0"> Masculino
+      <input type="radio" name="Sexo" id="inFem" step="0.01"min="0"> Feminino
+    </p>
+    <p>
+      Estatura:
+      <input type="number" id="inHeight" step="0.01" min="0" required>
+    </p>
+    <input type="submit" value="Calcular Peso Ideal">
+    <input type="reset" value="Limpar campos">
+  </form>
+
+  <h2 id="outResult"></h2>
+
+  <script src="./exemplo4.2.js"></script>
+</body>
+</html>
